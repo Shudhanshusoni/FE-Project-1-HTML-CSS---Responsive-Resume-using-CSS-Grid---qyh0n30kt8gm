@@ -9,17 +9,20 @@
 /* Write CSS code below */
 
 .main-content{
+    height:1000px;
+    width:90%;
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
-   height:1000px;
+    grid-template-columns:300px 700px;
+  
 }
 @media only screen and (max-width: 674px){
    
     .main-content{
+        width:90%;
+        height:1000px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-       width:90%;
-       height:1000px;
+      
        
     }
     }
@@ -33,8 +36,6 @@
     background-color: cornflowerblue;
     display:grid;
     grid-template-columns:700px;
-    width:90%;
-   
 }
 .left-content{
     padding: 1rem;
