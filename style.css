@@ -7,7 +7,7 @@
 }
 
 /* Write CSS code below */
-@media only screen and (min-width: 674px){
+/* @media only screen and (min-width: 674px){
    
 .main-content{
     display: grid;
@@ -15,7 +15,7 @@
     grid-template-rows: 1000px;
    
 }
-}
+} */
 @media only screen and (max-width: 674px){
    
     .main-content{
@@ -27,7 +27,8 @@
     }
 .left-section{
     background-color: aqua;
-   
+   display: grid;
+   grid-template-columns:repeat(3,1fr);
 }
 .right-section{
     background-color: cornflowerblue;
@@ -72,6 +73,7 @@ padding: 0.8rem;
 .skill-name{
     font-size: 0.65rem;
     font-weight: 0.65rem;
+    text-align: left;
     padding: 0 0 0.5rem 0;
 }
 .progress-bar{
