@@ -10,7 +10,7 @@
 
 .main-content{
     display: grid;
-    grid-template-columns:300px 700px;
+    grid-template-columns:repeat(2, 1fr);
    height:1000px;
 }
 @media only screen and (max-width: 674px){
@@ -25,10 +25,15 @@
     }
 .left-section{
     background-color: aqua;
+    display:grid;
+    grid-template-columns:300px;
   
 }
 .right-section{
     background-color: cornflowerblue;
+    display:grid;
+    grid-template-columns:700px;
+    width:90%;
    
 }
 .left-content{
