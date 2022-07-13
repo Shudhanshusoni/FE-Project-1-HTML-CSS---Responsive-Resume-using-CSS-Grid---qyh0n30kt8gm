@@ -7,33 +7,29 @@
 }
 
 /* Write CSS code below */
-@media only screen and (min-width: 674px){
-   
+
 .main-content{
     display: grid;
     grid-template-columns:300px 700px;
-   
-}
+   height:1000px;
 }
 @media only screen and (max-width: 674px){
    
     .main-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-       
+       width:90%;
+       height:1000px;
        
     }
     }
 .left-section{
     background-color: aqua;
-    height: 1000px;
-   display: grid;
   
 }
 .right-section{
     background-color: cornflowerblue;
-    height: 1000px;
-  display:grid; 
+   
 }
 .left-content{
     padding: 1rem;
