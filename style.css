@@ -8,7 +8,7 @@
 
 /* Write CSS code below */
 .main-content{
-    height:1000px;
+   min-height: 1000px;
     width:90%;
     display: grid;
     grid-template-columns:300px 700px;
@@ -17,10 +17,11 @@
 
 .left-section{
     background-color: aqua;
-  
+    display:block;
 }
 .right-section{
     background-color: cornflowerblue;
+   display:block;
 }
 .left-content{
     padding: 1rem;
@@ -82,16 +83,9 @@ padding: 0.8rem;
    
     .main-content{
         width:90%;
-        height:1000px;
+        min-height: 1000px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);  
     }
-    .left-section{
-        background-color: aqua;
-      grid-template-columns: 300px;
-    }
-    .right-section{
-        background-color: cornflowerblue;
-        grid-template-columns: 700px;
-    }
+   
   }
