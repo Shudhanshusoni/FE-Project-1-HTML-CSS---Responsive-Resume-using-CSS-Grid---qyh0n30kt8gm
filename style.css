@@ -17,15 +17,11 @@
 
 .left-section{
     background-color: aqua;
-    display: grid;
-    grid-column-start:0px ;
-    grid-column-end:300px;  
+    grid-column:span 1; ;
 }
 .right-section{
     background-color: cornflowerblue;
-    display: grid;
-    grid-column-start:300px;
-    grid-column-end:1000px;
+    grid-column:span 1/span 2;
 }
 .left-content{
     padding: 1rem;
