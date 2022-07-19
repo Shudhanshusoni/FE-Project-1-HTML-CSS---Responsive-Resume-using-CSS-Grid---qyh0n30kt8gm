@@ -11,17 +11,20 @@
    min-height: 1000px;
     width:90%;
     display: grid;
-    grid-template-columns:300px 700px;
+    grid-template-columns:1fr 2fr;
   
 }
 
 .left-section{
     background-color: aqua;
-    display:block;
+    grid-column-start: 0px;
+    grid-column-end: 300px;
+   
 }
 .right-section{
     background-color: cornflowerblue;
-   display:block;
+    grid-column-start: 300px;
+    grid-column-end: 1000px;
 }
 .left-content{
     padding: 1rem;
